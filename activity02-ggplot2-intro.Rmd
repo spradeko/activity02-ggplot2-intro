@@ -120,7 +120,8 @@ ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, ___ = 
 
 Now, comment on what you notice from these boxplots.
 
-**Response**:
+
+**Response**: I tried to do color=, but upon talking with my partner, the fill= ended up looking better for the boxplot. The boxplots seem to be quite distinct from eachother.
 
 
 Another way to visualize distributions are with points.
@@ -137,7 +138,7 @@ Comment on the strengths of the boxplot compared to the jitterplot and vice vers
 That is, what can you easily determine by looking at the boxplot?
 What about the jitterplot?
 
-**Response**:
+**Response**: The boxplot gives a good IQR explanation and how distinct the data points are away from eachother. The jitterplot illustrates a bit more of the spread of individuals within the samples. It still follows the clusters fairly closely.
 
 
 Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
